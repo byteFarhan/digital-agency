@@ -329,11 +329,13 @@ footer {
   margin: auto;
 }
 .div1 {
-  width: 34%;
+  width: 27%;
+  margin-right: 120px;
 }
 .div1 p {
-  line-height: 20px;
+  line-height: 30px;
   margin: 20px 0;
+  font-size: 15px;
 }
 .div1 ul a {
   color: #fff;
