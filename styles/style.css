@@ -1,10 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto", sans-serif; */
+}
+p {
+  font-family: "Roboto", sans-serif;
 }
 /* header section styles */
 header {
+  background-color: #d5d2d2;
 }
 .btn-primary {
   border: none;
@@ -23,10 +26,12 @@ header {
 }
 /* nav var part  */
 nav {
+  width: 85%;
+  margin: auto;
   height: 80px;
-  background-color: #d5d2d2;
+
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 .logo-div {
@@ -49,7 +54,7 @@ nav {
 .menu-div ul {
   display: flex;
   justify-content: center;
-  margin-right: 250px;
+  /* margin-right: 250px; */
 }
 .menu-div ul li {
   list-style: none;
@@ -93,16 +98,20 @@ span {
 }
 
 /* contant secton styles */
-.content-sec {
-  height: 100vh;
+.content-parent {
   background-image: url("../asset/image/footer-bg.png"),
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center center;
+}
+.content-sec {
+  height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 90%;
+  margin: auto;
 }
 /* left div part */
 .left-div {
@@ -116,6 +125,8 @@ span {
   padding: 10px auto;
   width: 160px;
   font-size: 16px;
+}
+.ceo-div a {
   align-self: center;
 }
 .left-div h3 {
@@ -170,8 +181,8 @@ hr {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  width: 35%;
-  margin-left: 250px;
+  width: 50%;
+  /* margin-left: 250px; */
 }
 .right-div-item {
   height: 300px;
@@ -189,4 +200,67 @@ hr {
   height: 150px;
   width: 150px;
   align-self: center;
+}
+
+/* contact section style */
+.contact-sec {
+  width: 76%;
+  margin: auto;
+  color: white;
+  background-color: red;
+  height: 180px;
+  position: relative;
+  bottom: 90px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact-right {
+  width: 35%;
+  display: flex;
+  text-align: center;
+  margin-left: 150px;
+}
+.phone-icon {
+  font-size: 100px;
+}
+.phone-number {
+  align-self: center;
+  margin-left: 20px;
+}
+.phone-number h5 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.phone-number h2 {
+  font-size: 35px;
+}
+.contact-description {
+  width: 65%;
+}
+.contact-left {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+}
+.contact-description p {
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 25px;
+}
+
+.appoint-div {
+  width: 35%;
+}
+.appoint-btn {
+  width: 240px;
+  padding: 18px 0;
+}
+.hr-black {
+  height: 140px;
+  border: 1px solid #fff;
+  margin-right: 20px;
 }
