@@ -309,3 +309,67 @@ hr {
   margin: 0 15px;
   line-height: 25px;
 }
+/* footer section */
+footer {
+  background-image: url("../asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 50px;
+}
+.div-main {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 65vh;
+  margin: auto;
+}
+.div1 {
+  width: 34%;
+}
+.div1 p {
+  line-height: 20px;
+  margin: 20px 0;
+}
+.div1 ul a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.div-common {
+  width: 22%;
+}
+.div-common ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.div-common ul li a {
+  color: white;
+  text-decoration: none;
+}
+.div-4 {
+  /* display: flex; */
+  align-self: center;
+}
+.div-4 ul li {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: lowercase;
+  margin-bottom: 20px !important;
+}
+.hadding-common {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.div-4 h3 {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.foot-span {
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white;
+}
