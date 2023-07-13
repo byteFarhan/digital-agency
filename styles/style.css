@@ -375,7 +375,11 @@ footer {
   margin-bottom: 20px;
   padding: 20px;
   color: white;
+  margin-left: -15px;
 }
+/* .foot-span1::before {
+  content: " <i class="fa-solid fa-phone-volume"> </i>";
+} */
 .copyright {
   text-align: center;
   color: white;
